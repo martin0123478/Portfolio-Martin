@@ -1,0 +1,13 @@
+.container {}
+
+img {
+    width: 15.625rem;
+    height: 15.625rem;
+
+    border-radius: 50%;
+}
+
+.foto {
+    text-align: center;
+    margin-top: 1.5rem;
+}

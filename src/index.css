@@ -1,0 +1,13 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Maven Pro', sans-serif;
+    background-color: black;
+
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
