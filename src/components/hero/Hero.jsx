@@ -5,7 +5,7 @@ const Hero = () => {
         <div className='container-hero'>
 
             <div className='foto'>
-                <img src={logo} alt="foto" />
+                <img className='foto-martin' src={logo} alt="foto" />
             </div>
             <div className='info'>
                 <p className='hero-text'>Hola ✋, Soy Martín Aguilar un Frontend, centrado en la creación de productos digitales durante los últimos 2 años.</p>

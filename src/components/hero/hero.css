@@ -4,7 +4,7 @@
     max-width: 100%;
 }
 
-img {
+.foto-martin {
     width: 15.625rem;
     height: 15.625rem;
 
@@ -60,7 +60,7 @@ img {
         font-size: 1.75rem;
     }
 
-    img {
+    .foto-martin {
         width: 22.813rem;
         height: 22.813rem;
     }
