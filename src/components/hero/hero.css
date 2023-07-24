@@ -1,4 +1,8 @@
-.container {}
+.container-hero {
+
+
+    max-width: 100%;
+}
 
 img {
     width: 15.625rem;
@@ -10,4 +14,62 @@ img {
 .foto {
     text-align: center;
     margin-top: 1.5rem;
+}
+
+.info {}
+
+.cv {
+    width: 19.5rem;
+    height: 3.25rem;
+    background-color: #34a7ff;
+    border: none;
+    font-weight: 700;
+    margin-top: 1rem;
+    border-radius: 0.25rem;
+}
+
+.hero-text {
+    color: white;
+    text-align: left;
+
+    font-size: 1.5rem;
+}
+
+.hero-description {
+    margin-top: 1rem;
+    text-align: left;
+    font-size: 1.125rem;
+    color: gray;
+
+    font-weight: 400;
+}
+
+@media (min-width:768px) {
+    .container-hero {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .hero-text {
+        font-size: 3rem;
+    }
+
+    .hero-description {
+        font-size: 1.75rem;
+    }
+
+    img {
+        width: 22.813rem;
+        height: 22.813rem;
+    }
+
+    .info {
+        padding: 0;
+        width: 665px;
+
+    }
+
+
 }
