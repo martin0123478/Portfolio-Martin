@@ -1,12 +1,18 @@
 import Header from "../components/header/header"
 import Hero from "../components/hero/Hero"
-import Project from "../components/projects/Project"
+import Project1 from "../components/project1/Project1"
+import Project2 from "../components/project2/Project2"
+import Project from "../components/project3/Project"
+import Footer from "../components/footer/Footer"
 const Principal = () => {
     return (
         <>
             <Header />
             <Hero />
+            <Project1 />
+            <Project2 />
             <Project />
+            <Footer />
         </>
     )
 }

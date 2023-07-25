@@ -1,0 +1,33 @@
+.logo {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+
+
+.footer-container {
+    margin-top: 140px;
+}
+
+.footer-description {
+    font-size: 18px;
+    color: white;
+}
+
+.footer-logos {
+    display: flex;
+    justify-content: space-around
+}
+
+@media (min-width:768px) {
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-logos {
+        width: 210px;
+    }
+}
