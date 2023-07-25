@@ -1,0 +1,36 @@
+.contacto-title {
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.correo {
+    color: #EF4565;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.linke {
+    color: white;
+    font-size: 25px;
+}
+
+.linke a {
+    color: #EF4565;
+}
+
+@media (min-width:768px) {
+
+    .correo,
+    .linke a {
+        font-size: 32px;
+    }
+
+    .contacto-title {
+        font-size: 64px;
+    }
+
+    .contact-container {
+        width: 750px;
+    }
+}

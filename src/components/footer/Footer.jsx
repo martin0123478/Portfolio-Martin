@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <div className='footer-container'>
             <div>
-                <p className='footer-description'>© Copyright 2021 | Martín Aguilar</p>
+                <p className='footer-description'>© Copyright 2023 | Martín Aguilar</p>
             </div>
             <div className='footer-logos'>
                 <a href="https://github.com/martin0123478" target="_blank"><img className='logo' src={git} alt="git" /></a>
