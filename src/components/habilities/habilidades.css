@@ -1,0 +1,35 @@
+.title-habilidades {
+    color: white;
+    font-size: 1.75rem;
+    font-weight: 700;
+    text-align: left;
+}
+
+.container-habilidades {
+    margin-top: 80px;
+}
+
+.text-habilidades {
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-align: left;
+}
+
+.front {
+    color: white;
+    font-size: 1.25rem;
+    text-align: left;
+}
+
+@media (min-width:768px) {
+    .container-habilidades {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .text-habilidades,
+    .front {
+        font-size: 1.75rem;
+    }
+}

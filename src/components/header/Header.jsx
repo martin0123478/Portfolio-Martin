@@ -7,9 +7,12 @@ const Header = () => {
                 <p className='name'>Martín Aguilar</p>
             </div>
             <div className='enlaces_container'>
-                <Link className='link' to='#projectos'>Proyectos</Link>
-                <Link className='link' to='#contacto'>Contacto</Link>
-                <Link className='link' to='#experiencia'>Experiencia</Link>
+
+                <a className='link' href='#projectos'>Proyectos</a>
+                <a className='link' href='#habilidades'>Habilidades</a>
+                <a className='link' href='#contacto'>Contacto</a>
+                <Link className='link'>Comunidadades</Link>
+
             </div>
 
         </div>
