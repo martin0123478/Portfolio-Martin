@@ -1,4 +1,4 @@
-import Landing from './pages/landing'
+import Landing from './pages/Landing'
 import Principal from './pages/Principal'
 import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
