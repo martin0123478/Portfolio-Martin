@@ -12,6 +12,7 @@ const Project = () => {
             <div className='info'>
                 <p className='title-project'>Planificador de gastos</p>
                 <p className='description-project'>Ten un control de tus gastos y ahorra dinero</p>
+                <p className='description-project'>Puedes filtrar tus gastos y saber que porcentaje estás gastando.</p>
                 <a className='link-project' href="https://tourmaline-centaur-5eb861.netlify.app/" target="_blank">Ver proyecto</a>
                 <a className='link-repo' href="https://github.com/martin0123478/React-Gastos" target="_blank">Ver código</a>
             </div>
