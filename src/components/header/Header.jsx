@@ -10,8 +10,9 @@ const Header = () => {
 
                 <a className='link' href='#projectos'>Proyectos</a>
                 <a className='link' href='#habilidades'>Habilidades</a>
+                <a href='#comunidades' className='link'>Comunidadades</a>
                 <a className='link' href='#contacto'>Contacto</a>
-                <Link className='link'>Comunidadades</Link>
+
 
             </div>
 

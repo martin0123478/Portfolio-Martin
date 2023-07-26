@@ -11,8 +11,10 @@ const Footer = () => {
             </div>
             <div className='footer-logos'>
                 <a href="https://github.com/martin0123478" target="_blank"><img className='logo' src={git} alt="git" /></a>
-                <img className='logo' src={insta} alt="insta" />
-                <img className='logo' src={twitter} alt="twitter" />
+                <a href="https://www.instagram.com/martinpaker7/" target="_blank"><img className='logo' src={insta} alt="insta" /></a>
+
+                <a href="https://twitter.com/martin_parker7" target='_blank'><img className='logo' src={twitter} alt="twitter" /></a>
+
 
             </div>
         </div>

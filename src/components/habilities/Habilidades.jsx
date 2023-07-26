@@ -12,7 +12,7 @@ const Habilidades = () => {
                 <p className='title-habilidades'>Herramientas</p>
                 <hr />
                 <p className='text-habilidades'>Programación</p>
-                <p className='front'>VSCode, Jira, Figma, Scketch</p>
+                <p className='front'>Github, Bitbucket, VSCode, Jira, Figma, Scketch</p>
 
             </div>
         </div>

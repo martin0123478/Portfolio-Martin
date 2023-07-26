@@ -1,0 +1,71 @@
+.title-comunidades {
+    color: white;
+    font-size: 1.625rem;
+    text-align: left;
+    font-weight: 700;
+}
+
+.subtitle-comunidades {
+    color: white;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.io {
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.text-comunidades {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.images-comunnity {
+    text-align: center;
+}
+
+.conferencia {
+    text-decoration: none;
+    color: #EF4565;
+    font-size: 1.5rem;
+    text-decoration: dotted;
+    cursor: pointer;
+
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+@media (min-width:768px) {
+    .comunidades-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .images-comunnity {
+        display: grid;
+        grid-template-columns: repeat(2, 250px);
+        grid-template-rows: repeat(2, 250px);
+        align-items: center;
+        gap: 25px;
+    }
+
+    .title-comunidades {
+        font-size: 5rem;
+    }
+
+    .subtitle-comunidades {
+        font-size: 1.75rem;
+    }
+
+    .conferencia {
+        font-size: 2rem;
+    }
+}
