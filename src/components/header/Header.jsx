@@ -2,7 +2,7 @@ import './header.css'
 import { Link } from 'react-router-dom'
 const Header = () => {
     return (
-        <div className='container'>
+        <header className='container'>
             <div>
                 <p className='name'>Martín Aguilar</p>
             </div>
@@ -16,7 +16,7 @@ const Header = () => {
 
             </div>
 
-        </div>
+        </header>
     )
 }
 
