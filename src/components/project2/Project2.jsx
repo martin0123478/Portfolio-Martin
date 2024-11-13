@@ -13,7 +13,7 @@ const Project2 = () => {
                 <p className='title-project'>Vet-MERN: Administrador citas de veterinario</p>
                 <p className='description-project'>Controla el registro de tus citas de veterinario</p>
                 <p className='description-project'>Puedes controlar a tus pacientes crenado una cuenta.</p>
-                <a className='link-project' href="https://vet-mern-frontend.vercel.app/" target="_blank">Ver proyecto</a>
+
                 <a className='link-repo' href="https://github.com/martin0123478/Vet_MERN_Frontend" target="_blank">Ver código</a>
             </div>
 
