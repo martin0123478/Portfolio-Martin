@@ -7,6 +7,7 @@ import Contacto from "../components/contacto/Contacto"
 import Footer from "../components/footer/Footer"
 import Habilidades from "../components/habilities/Habilidades"
 import Comunidades from "../components/comunidades/Comunidades"
+import Project4 from "../components/project4/Project"
 const Principal = () => {
     return (
         <>
@@ -15,6 +16,7 @@ const Principal = () => {
             <Project1 />
             <Project2 />
             <Project />
+            <Project4 />
             <Comunidades />
             <Habilidades />
 

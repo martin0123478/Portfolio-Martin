@@ -1,8 +1,8 @@
 import './comunidades.css'
 import io from '../../assets/images/io.png'
-import leads from '../../assets/images/leads.png'
+import gdg1 from '../../assets/images/gdg1.jpg'
 import latam from '../../assets/images/latam.png'
-import charla1 from '../../assets/images/charla1.jpeg'
+import gdg2 from '../../assets/images/gdg2.jpg'
 const Comunidades = () => {
     return (
         <div className='comunidades container' id='comunidades'>
@@ -21,13 +21,15 @@ const Comunidades = () => {
                     <li><a className='conferencia'  >Mi camino en Comunidadades (Presencial)</a></li>
                     <li><a className='conferencia'  >Introducción al Desarrollo Frontend (Presencial)</a></li>
                 </ol>
+                <p className='subtitle-comunidades'>Y desde 2023 Dirijo el <a className='conferencia' href="https://gdg.community.dev/gdg-atizapan/" target='_blank'>Google Developer Group Atizapán</a> </p>
+
             </div>
 
             <div className='images-comunnity'>
                 <img className='io' src={io} alt="" />
-                <img className='io' src={leads} alt="" />
+                <img className='io' src={gdg1} alt="" />
                 <img className='io' src={latam} alt="" />
-                <img className='io' src={charla1} alt="" />
+                <img className='io' src={gdg2} alt="" />
 
             </div>
 

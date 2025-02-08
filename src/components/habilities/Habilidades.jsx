@@ -6,7 +6,9 @@ const Habilidades = () => {
                 <p className='title-habilidades'>Habilidades Principales</p>
                 <hr />
                 <p className='text-habilidades'>Front-End Development</p>
-                <p className='front'>Git, HTML, CSS, Javascript, React, Redux, Context</p>
+                <p className='front'>HTML, CSS, JavaScript, TypeScript, Git, Bootstrap, <br />Tailwind, React, Next.js,  Context API, Redux, Redux Toolkit, Zustand, <br />React Query, Node.js, MySQL, MongoDB, PostgreSQL, Testing , Jest.
+
+                </p>
             </div>
             <div>
                 <p className='title-habilidades'>Herramientas</p>

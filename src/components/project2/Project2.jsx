@@ -13,7 +13,8 @@ const Project2 = () => {
                 <p className='title-project'>Vet-MERN: Administrador citas de veterinario</p>
                 <p className='description-project'>Controla el registro de tus citas de veterinario</p>
                 <p className='description-project'>Puedes controlar a tus pacientes crenado una cuenta.</p>
-
+                <p className='description-project'>Tecnologias:<br /></p>
+                <p className='description-project'>Mongo DB, Express, React y Node JS </p>
                 <a className='link-repo' href="https://github.com/martin0123478/Vet_MERN_Frontend" target="_blank">Ver código</a>
             </div>
 

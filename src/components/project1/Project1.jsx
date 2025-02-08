@@ -12,8 +12,10 @@ const Project1 = () => {
             <div>
                 <p className='title-project'>Up-Task: Administrador de proyectos</p>
                 <p className='description-project'>Administra tus proyectos desde una apliación intuitiva y eficiente.</p>
-                <p className='description-project'>Up-Task es una aplicación Full Stack con el MERN Stack:</p>
-                <p className='description-project'>      Mongo DB, Express, React y Node JS </p>
+
+                <p className='description-project'>Up-Task es una aplicación Full Stack con el MERN Stack:<br /></p>
+                <p className='description-project'>Tecnologias:<br /></p>
+                <p className='description-project'>Mongo DB, Express, React y Node JS </p>
 
 
                 <a className='link-repo' href="https://github.com/martin0123478/UpTask_MERN_Frontend/tree/main" target="_blank">Ver código</a>
